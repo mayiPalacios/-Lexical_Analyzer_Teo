@@ -19,22 +19,17 @@ tokens = (
 )
 
 reserved = {
-    'cout': 'COUT',
     'namespace': 'NAMESPACE',
     'using': 'USING',
     'auto': 'AUTO',
     'break': 'BREAK',
     'case': 'CASE',
     'continue': 'CONTINUE',
-    'default': 'DEFAULT',
-    'do': 'DO',
     'else': 'ELSE',
     'for': 'FOR',
     'if': 'IF',
     'return': 'RETURN',
-    'switch': 'SWITCH',
     'while': 'WHILE',
-    'new': 'NEW',
     'int': 'INT',
     'float': 'FLOAT',
     'double': 'DOUBLE',
@@ -49,13 +44,6 @@ t_BRACE_R = r'\}'
 t_PREPROCESSOR = r'\#\w+'
 t_END_INSTRUCTION = r'\;'
 
-""" OPs
-SUM = r'\+'
-LESS = r'-'+
-MULTIPLY = r'\*'
-DIV = r'/'
-EQUAL = r'='
-"""
 
 symbol_table = SymbolTable()
 is_declaring = False
